@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&family=Montserrat:wght@200&family=Poppins:wght@200;300;400;500;600&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&family=Montserrat:wght@200&family=Poppins:wght@200;300;400;500;600&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(0, 0%, 95%);
+}
+
+.text {
+    margin: 200px auto 0 auto;
+    width: 900px;
+    height: 500px;
+    border: none;
+    background: linear-gradient(to right, hsl(31, 77%, 52%) 300px, hsl(184, 100%, 22%) 300px, hsl(184, 100%, 22%) 600px, hsl(179, 100%, 13%) 600px, hsl(179, 100%, 13%) 900px);
+    border-radius: 10px;
+}
+
+.sedans, .suvs, .luxury {
+    
+    display: inline-block;
+    margin: 0;
+    width: 290px;
+    height: 500px;
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 15px;
+    border: none;
+}
+
+.sedans img, .suvs img, .luxury img {
+    margin: 15% 0 0 15%;   
+}
+
+.sedans h1, .suvs h1, .luxury h1 {
+    display: block;
+    text-transform: uppercase;
+    font-size: 40px;
+    font-family: "Big Shoulders Display";
+    font-weight: 700;
+    margin: 14%;
+    color: hsl(0, 0%, 95%);;
+}
+
+.sedans span, .suvs span, .luxury span {
+    display: block;
+    font-family: "Lexend Deca";
+    font-weight: 400;
+    margin: 14%;
+    line-height: 25px;
+}
+
+.learn-more1 {
+    display: block;
+    background-color: hsl(0, 0%, 95%);
+    border: none;  
+    border-radius: 50px;
+    width: 140px;
+    height: 45px; 
+    font-size: 15px;
+    margin: 15%;
+    color: hsl(31, 77%, 52%);
+    font-family: "Lexend Deca";
+    font-weight: 400;
+}
+
+.learn-more2 {
+    display: block; 
+    background-color: hsl(0, 0%, 95%);
+    border: none;  
+    border-radius: 50px;
+    width: 140px;
+    height: 45px; 
+    font-size: 15px;
+    margin: 15%;
+    color: hsl(184, 100%, 22%);
+    font-family: "Lexend Deca";
+    font-weight: 400;
+}
+
+.learn-more3 {
+    display: block;
+    background-color: hsl(0, 0%, 95%);
+    border: none;  
+    border-radius: 50px;
+    width: 140px;
+    height: 45px; 
+    font-size: 15px;
+    margin: 15%;
+    color: hsl(179, 100%, 13%);
+    font-family: "Lexend Deca";
+    font-weight: 400;
+}
